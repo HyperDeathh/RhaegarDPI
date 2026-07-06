@@ -1,6 +1,7 @@
 # RhaegarDPI
 
-Created by **Yunus Emre Birben**
+RhaegarDPI wrapper/package created by **Yunus Emre Birben**.
+Based on GoodbyeDPI and uses WinDivert.
 
 A lightweight Windows service wrapper to bypass Deep Packet Inspection (DPI) and censorship (e.g. Discord, Twitter/X, and other blocked websites) using a custom hosts blacklist and custom DNS routing.
 
@@ -70,7 +71,7 @@ The service registers the executable with the following arguments:
 
 ## License & Credits
 
-- This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See the [LICENSE](file:///c:/Users/1bene/OneDrive/Documents/RhaegarDPI/LICENSE) file for the full text.
+- This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See the [LICENSE](./LICENSE) file for the full text.
 - Based on **[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)** by ValdikSS (MIT License).
 - Uses **[WinDivert](https://github.com/basil00/Divert)** packet capture library by basil00 (LGPLv3 License).
 
@@ -78,7 +79,7 @@ The service registers the executable with the following arguments:
 
 # Türkçe
 
-**Yunus Emre Birben** tarafından geliştirilmiştir.
+RhaegarDPI wrapper/paketi **Yunus Emre Birben** tarafından hazırlanmıştır. GoodbyeDPI ve WinDivert projelerini temel alır.
 
 Türkiye'deki servis sağlayıcıların uyguladığı DPI (Derin Paket İnceleme) engellemelerini ve DNS zehirlemelerini aşmak için tasarlanmış, özel ana makine (hosts) listesi ve DNS yönlendirmesi kullanan hafif bir Windows servis paketidir.
 
@@ -105,7 +106,7 @@ Türkiye'deki servis sağlayıcıların uyguladığı DPI (Derin Paket İnceleme
 
 ## Lisans ve Teşekkür
 
-- Bu proje **GNU General Public License v3.0 (GPL-3.0)** ile lisanslanmıştır. Detaylar için [LICENSE](https://github.com/HyperDeathh/RhaegarDPI/blob/main/LICENSE) dosyasına göz atabilirsiniz.
+- Bu proje **GNU General Public License v3.0 (GPL-3.0)** ile lisanslanmıştır. Detaylar için [LICENSE](./LICENSE) dosyasına göz atabilirsiniz.
 - ValdikSS tarafından geliştirilen **[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)** projesini temel alır (MIT).
 - basil00 tarafından geliştirilen **[WinDivert](https://github.com/basil00/Divert)** paket yakalama kütüphanesini kullanır (LGPLv3).
 
