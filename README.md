@@ -105,7 +105,7 @@ Türkiye'deki servis sağlayıcıların uyguladığı DPI (Derin Paket İnceleme
 
 ## Lisans ve Teşekkür
 
-- Bu proje **GNU General Public License v3.0 (GPL-3.0)** ile lisanslanmıştır. Detaylar için [LICENSE](file:///c:/Users/1bene/OneDrive/Documents/RhaegarDPI/LICENSE) dosyasına göz atabilirsiniz.
-- ValdikSS tarafından geliştirilen **[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)** projesini temel alır (MIT Lisansı).
-- basil00 tarafından geliştirilen **[WinDivert](https://github.com/basil00/Divert)** paket yakalama kütüphanesini kullanır (LGPLv3 Lisansı).
+- Bu proje **GNU General Public License v3.0 (GPL-3.0)** ile lisanslanmıştır. Detaylar için [LICENSE](https://github.com/HyperDeathh/RhaegarDPI/blob/main/LICENSE) dosyasına göz atabilirsiniz.
+- ValdikSS tarafından geliştirilen **[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)** projesini temel alır (MIT).
+- basil00 tarafından geliştirilen **[WinDivert](https://github.com/basil00/Divert)** paket yakalama kütüphanesini kullanır (LGPLv3).
 
