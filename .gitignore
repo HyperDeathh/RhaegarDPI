@@ -1,0 +1,15 @@
+# OS Files
+thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Logs
+*.log
