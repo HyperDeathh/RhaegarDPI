@@ -4,14 +4,20 @@ Created by **Yunus Emre Birben**
 
 A lightweight Windows service wrapper to bypass Deep Packet Inspection (DPI) and censorship (e.g. Discord, Twitter/X, and other blocked websites) using a custom hosts blacklist and custom DNS routing.
 
+> [!TIP]
+> **Gaming-Friendly & Bypasses Discord Censorship!**
+> Standard DPI circumvention tools or VPNs intercept all network traffic, which frequently breaks connections, causes high latency, or gets you kicked (connection errors) from online multiplayer games like **PUBG**, **Valorant**, and **League of Legends**.
+> **RhaegarDPI** uses a targeted domain filtering system (`--blacklist`) and secure DNS redirection. This successfully restores complete access to Discord (including voice channels) while **preventing any connection issues or ping spikes in online games like PUBG.**
+
 *Read this in other languages: [Türkçe](#türkçe)*
 
 ---
 
 ## Features
 
+- **Unblocks Discord & Twitter (X)**: Fully restores access including voice channels and media servers.
+- **Gaming-Friendly (No PUBG Connection Issues)**: Only targets blocked domains listed in `custom-hosts.txt`. Game network traffic is left completely untouched.
 - **Automated Windows Service**: Installs as a lightweight Windows service (`RhaegarDPI`) that starts automatically with Windows.
-- **Custom Blacklist**: Pre-configured with popular blocked domains in Turkey (Discord, X/Twitter, xplay.gg, etc.).
 - **DNS Redirection**: Routes DNS queries through a custom DNS resolver (`77.88.8.8` / Yandex DNS) on port `1253` to prevent DNS poisoning and spoofing by local ISPs.
 - **Easy Management**: Clean and informative command-line scripts to install, uninstall, and verify the service status with administrator privilege checks.
 
@@ -76,9 +82,15 @@ The service registers the executable with the following arguments:
 
 Türkiye'deki servis sağlayıcıların uyguladığı DPI (Derin Paket İnceleme) engellemelerini ve DNS zehirlemelerini aşmak için tasarlanmış, özel ana makine (hosts) listesi ve DNS yönlendirmesi kullanan hafif bir Windows servis paketidir.
 
+> [!TIP]
+> **Oyun Dostu ve Discord Engelini Kaldıran Çözüm!**
+> Standart DPI aşma araçları veya VPN'ler tüm internet trafiğinizi manipüle ettiği için **PUBG**, **Valorant**, **League of Legends** gibi çevrimiçi oyunlarda bağlantı kopması, yüksek ping veya sunucudan atılma (connection error) sorunlarına yol açar.
+> **RhaegarDPI**, sadece belirlenen engelli siteleri hedef alan filtreleme sistemi (`--blacklist`) ve özel DNS yönlendirmesi sayesinde **Discord ses kanalları dahil tüm engelleri kaldırırken, PUBG gibi oyunlarda kesinlikle bağlantı veya ping sorunu yaşatmaz.**
+
 ## Özellikler
+- **Discord & X (Twitter) Engelini Aşar**: Ses kanalları (voice chat) ve medya sunucuları dahil olmak üzere kesintisiz erişim sağlar.
+- **Oyunlarda Sıfır Sorun (PUBG Dostu)**: Sadece `custom-hosts.txt` içindeki engelli sitelere müdahale edilir; oyun trafiğinize dokunulmaz.
 - **Otomatik Windows Servisi**: Arka planda sessizce çalışır, bilgisayar açıldığında otomatik olarak başlar.
-- **Özel Engelli Listesi**: Türkiye'de erişim engeli bulunan yaygın platformlar (Discord, X/Twitter, vb.) önceden eklenmiştir.
 - **Güvenli DNS Yönlendirme**: ISS tabanlı DNS zehirlemelerini engellemek için DNS isteklerini güvenli DNS sunucularına yönlendirir.
 - **Kolay Kurulum/Kaldırma**: Yönetici yetkisi kontrolleri içeren, bilgilendirici ve kullanımı kolay CMD arayüzü.
 
